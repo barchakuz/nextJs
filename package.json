@@ -1,5 +1,5 @@
 {
-  "homepage": "https://barchakuz.github.io/nextJs",
+  
   "name": "app",
   "version": "0.1.0",
   "private": true,
@@ -8,8 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+
   },
   "dependencies": {
     "clsx": "^2.1.1",
