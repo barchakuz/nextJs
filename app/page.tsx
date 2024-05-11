@@ -4,6 +4,7 @@ import FeaturedCourse from "./components/FeaturedCourse";
 import WhyChooseUs from "./components/WhyChooseUs";
 import MusicSchoolCards from "./components/MusicSchoolCards";
 import UpcomingWebinars from "./components/UpcomingWebinars";
+import Instructor from "./components/Instructor";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <WhyChooseUs />
       <MusicSchoolCards />
       <UpcomingWebinars />
+      <Instructor />
     </>
   );
 }

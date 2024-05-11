@@ -3,10 +3,17 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require("tailwindcss/colors");
 const svgToDataUri = require("mini-svg-data-uri");
 
+import { ClassValue, clsx } from "clsx";
+import { twMerge } from "tailwind-merge";
+
 const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
- 
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
+
 
 const config: Config = {
   content: [

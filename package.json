@@ -43,6 +43,9 @@
   "react-dom": "^18",
   
     
+  "simplex-noise": "^4.0.1",
+  
+    
   "tailwind-merge": "^2.3.0"
   
   },
