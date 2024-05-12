@@ -12,17 +12,17 @@ const instructors = [
     },
     {
       id: 2,
-      name: 'Marcus Reid',
+      name: 'Behroze Aslam',
       designation: 'Guitar Instructor',
       image:
-        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80',
+        'https://avatars.githubusercontent.com/u/66128370?s=400&u=a4b77a09cde0c35081ce9d4a8b08f7ba49129b67&v=4',
     },
     {
       id: 3,
-      name: 'Julia Zhang',
+      name: 'CJ OG',
       designation: 'Piano Teacher',
       image:
-        'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60',
+        'https://egw.news/uploads/news/1692455507715.jpg',
     },
     {
       id: 4,

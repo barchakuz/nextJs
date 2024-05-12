@@ -6,7 +6,7 @@ import React, {
   createContext,
   useState,
   useContext,
-  useRef,
+  useRef
 } from "react";
 import { useEffect } from "react";
 
@@ -125,7 +125,7 @@ export const CardItem = ({
     handleAnimations();
   }, [isMouseEntered]);
 
-  function handleAnimations  () {
+  const handleAnimations = () => {
     if (!ref.current) return;
     if (isMouseEntered) {
       ref.current.style.transform = `translateX(${translateX}px) translateY(${translateY}px) translateZ(${translateZ}px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) rotateZ(${rotateZ}deg)`;
