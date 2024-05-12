@@ -7,8 +7,8 @@ import React, {
   useState,
   useContext,
   useRef,
-  useEffect,
 } from "react";
+import { useEffect } from "react";
 
 const MouseEnterContext = createContext<
   [boolean, React.Dispatch<React.SetStateAction<boolean>>] | undefined
