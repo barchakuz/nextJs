@@ -26,7 +26,7 @@ export const InfiniteMovingCards = ({
 
   useEffect(() => {
     addAnimation();
-  }, []);
+  }, [addAnimation]);
   const [start, setStart] = useState(false);
   function addAnimation() {
     if (containerRef.current && scrollerRef.current) {
@@ -44,6 +44,9 @@ export const InfiniteMovingCards = ({
       setStart(true);
     }
   }
+
+
+  
   const getDirection = () => {
     if (containerRef.current) {
       if (direction === "left") {
