@@ -6,9 +6,9 @@ import React, {
   createContext,
   useState,
   useContext,
-  useRef
+  useRef,
+  useEffect,
 } from "react";
-import { useEffect } from "react";
 
 const MouseEnterContext = createContext<
   [boolean, React.Dispatch<React.SetStateAction<boolean>>] | undefined
@@ -121,7 +121,10 @@ export const CardItem = ({
   const ref = useRef<HTMLDivElement>(null);
   const [isMouseEntered] = useMouseEnter();
 
-  
+  useEffect(() => {
+    handleAnimations();
+  }, [isMouseEntered]);
+
   const handleAnimations = () => {
     if (!ref.current) return;
     if (isMouseEntered) {
@@ -130,10 +133,6 @@ export const CardItem = ({
       ref.current.style.transform = `translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg)`;
     }
   };
-  
-  useEffect(() => {
-    handleAnimations();
-  }, [isMouseEntered, handleAnimations]); // Include handleAnimations in the dependency array
 
   return (
     <Tag
