@@ -13,8 +13,8 @@ function page() {
         <h1 className='text-2xl md:text-4xl lg:text-5xl text-white font-bold text-center mb-8'>Total Courses {CourseData.courses.length}</h1>
         </div>
         <div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3'>
-            {CourseData.courses.map((data)=>(
-            <CardContainer className="inter-var">
+            {CourseData.courses.map((data, index)=>(
+            <CardContainer key={index} className="inter-var">
                 <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[20rem] h-auto rounded-xl p-6 border  ">
                     <CardItem
                     translateZ="50"
