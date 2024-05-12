@@ -5,10 +5,10 @@ import { AnimatedTooltip } from "./ui/animated-tooltip";
 const instructors = [
     {
       id: 1,
-      name: 'Elena Briggs',
-      designation: 'Vocal Coach',
+      name: 'Micah Bell III',
+      designation: 'Rat',
       image:
-        'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60',
+        'https://preview.redd.it/fx16dimhps061.png?auto=webp&s=9297b77cf2b80dff1dbe90367139a62e818e4c6b',
     },
     {
       id: 2,
@@ -26,10 +26,10 @@ const instructors = [
     },
     {
       id: 4,
-      name: 'Andre Gomez',
-      designation: 'Drumming Expert',
+      name: 'Auther Morgan',
+      designation: 'Gun Slinger',
       image:
-        'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60',
+        'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/10/red-dead-redemption-2-arthur-morgan-undead-nightmare-mod.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5',
     },
   ];
 
