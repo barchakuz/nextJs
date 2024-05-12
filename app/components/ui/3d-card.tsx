@@ -132,7 +132,7 @@ export const CardItem = ({
       ref.current.style.transform = `translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg)`;
     }
     };
-  }, [isMouseEntered]); // Include handleAnimations in the dependency array
+  }, [isMouseEntered, translateX, translateY, translateZ, rotateX, rotateY, rotateZ]); // Include handleAnimations in the dependency array
 
   return (
     <Tag
